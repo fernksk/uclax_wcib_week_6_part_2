@@ -4,7 +4,32 @@
 body {
   padding-top: 0rem;
   font-family: 'M PLUS 1p', sans-serif;
-  background-color: #fff; }
+  background-color: #fefefe; }
+
+p {
+  font-size: 20px; }
+
+h2 {
+  font-size: 40px; }
+
+.thumbnail {
+  position: relative;
+  display: inline-block; }
+
+.caption {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #fefefe;
+  text-shadow: 1px 1px 15px grey; }
+
+.ml12.letter {
+  display: inline-block; }
+
+.ml13.letter {
+  display: inline-block; }
 
 .starter-template {
   padding: 3rem 1.5rem;
@@ -25,15 +50,7 @@ body {
 img {
   width: 100%;
   margin: auto;
-  display: block;
-  border-radius: 0; }
-
-.row {
-  display: flex; }
-
-.col-md-6 {
-  padding: .50rem .50rem;
-  justify-content: space-between; }
+  display: block; }
 
 .shadow {
   box-shadow: 20px 20px; }
@@ -45,6 +62,42 @@ img {
   margin-right: auto;
   margin-left: auto; }
 
+.card-text {
+  font-size: 20px; }
+
 .hashtag {
   font-size: 30px;
   color: #a8d0e6; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #0275a0;
+  border-width: 2px;
+  border-color: #0275a0; }
+
+.btn-primary:hover {
+  color: #697184;
+  background-color: #d8cfd0;
+  border-width: 2px;
+  border-color: #d8cfd0; }
+
+.btn-secondary {
+  color: #fff;
+  background-color: #0275a0;
+  border-width: 2px;
+  border-color: #0275a0; }
+
+#slideshow {
+  margin: 50px auto;
+  position: relative;
+  width: 1000px;
+  height: 700px;
+  padding: 2px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px; }
