@@ -25,6 +25,14 @@ h2 {
   color: #fefefe;
   text-shadow: 1px 1px 15px grey; }
 
+.cap {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #000; }
+
 .ml12.letter {
   display: inline-block; }
 
@@ -76,10 +84,10 @@ img {
   border-color: #0275a0; }
 
 .btn-primary:hover {
-  color: #697184;
-  background-color: #d8cfd0;
+  color: #000;
+  background-color: #8a9ea7;
   border-width: 2px;
-  border-color: #d8cfd0; }
+  border-color: #8a9ea7; }
 
 .btn-secondary {
   color: #fff;
@@ -90,8 +98,8 @@ img {
 #slideshow {
   margin: 50px auto;
   position: relative;
-  width: 1000px;
-  height: 700px;
+  width: 700px;
+  height: 505px;
   padding: 2px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
 

@@ -44,7 +44,7 @@ anime.timeline({loop: true})
 
 
 
-
+//slideshow
 $("#slideshow > div:gt(0)").hide();
 
 setInterval(function() {

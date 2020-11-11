@@ -1,5 +1,5 @@
 .bg-dark {
-    background-color: #343a40!important;
+  background-color: #343a40!important;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 p {
- font-size: 20px;
+  font-size: 20px;
 }
 
 h2{
@@ -17,26 +17,35 @@ h2{
 }
 
 .thumbnail {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .caption {
-    position: absolute;
-    top: 55%;
-    left: 40%;
-    transform: translate( -50%, -50% );
-    text-align: left;
-    color: #fefefe;
-    text-shadow: 1px 1px 15px grey;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  transform: translate( -50%, -50% );
+  text-align: left;
+  color: #fefefe;
+  text-shadow: 1px 1px 15px grey;
+}
+
+.cap {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate( -50%, -50% );
+  text-align: left;
+  color: #000;
 }
 
 .ml12.letter{
-    display: inline-block;
+  display: inline-block;
 }
 
 .ml13.letter{
-    display: inline-block;
+  display: inline-block;
 }
 
 .starter-template {
@@ -60,44 +69,44 @@ h2{
 }
 
 img {
-	width: 100%;
+  width: 100%;
   margin: auto;
   display: block;
-  }
+}
 
 .shadow{
   box-shadow: 20px 20px;
 }
 
 .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-  .card-text{
-    font-size: 20px;
-  }
+.card-text{
+  font-size: 20px;
+}
 
-  .hashtag {
-      font-size: 30px;
-      color: #a8d0e6;
-  }
+.hashtag {
+  font-size: 30px;
+  color: #a8d0e6;
+}
 
-  .btn-primary {
-    color: #fff;
-    background-color: #0275a0;
-    border-width: 2px;
-    border-color: #0275a0;
+.btn-primary {
+  color: #fff;
+  background-color: #0275a0;
+  border-width: 2px;
+  border-color: #0275a0;
 }
 
 .btn-primary:hover {
-  color: #697184;
-  background-color: #d8cfd0;
+  color: #000;
+  background-color: #8a9ea7;
   border-width: 2px;
-  border-color: #d8cfd0;
+  border-color: #8a9ea7;
 }
 
 .btn-secondary {
@@ -110,8 +119,8 @@ img {
 #slideshow {
   margin: 50px auto;
   position: relative;
-  width: 1000px;
-  height: 700px;
+  width: 700px;
+  height: 505px;
   padding: 2px;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
